@@ -15,7 +15,7 @@ Predicting diabetic patient from non-diabetic patient using gradient boosted mod
 
 <h2>Environments Used </h2>
 
-- <b>Google Collab</b> (21H2)
+- <b>Google Collab</b> 
 
 
 
