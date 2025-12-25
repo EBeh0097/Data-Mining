@@ -8,7 +8,7 @@ Predicting diabetic patient from non-diabetic patient using gradient boosted mod
 ### [Source](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators)
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Languages </h2>
 
 - <b>Python</b> 
 
