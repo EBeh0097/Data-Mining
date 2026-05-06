@@ -9,160 +9,141 @@ Predicting diabetic patient from non-diabetic patient using gradient boosted mod
 <h2>Data Source</h2>
 ### [Source](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators)
 
-Key concepts demonstrated include:
-- Data Mining
-- XGBoost Machine Learning
-- TensorFlow Deep Learning
-- Predictive Analytics
-- Supervised Learning
-- Neural Networks
-- Model Optimization
-- Feature Engineering
+## Models Implemented
 
----
+The notebook implemented and evaluated:
 
-## Technical Skills Demonstrated
+XGBoost Classifier
+LightGBM Classifier
+CatBoost Classifier
+YDF Gradient Boosted Trees
+TensorFlow / Deep Learning workflow concepts
 
-### Machine Learning & Deep Learning Engineering
-- XGBoost Algorithms
-- TensorFlow Neural Networks
-- Predictive Modeling
-- Classification Models
-- Regression Models
-- Deep Learning Workflows
-- AI Model Evaluation
+### Results Statistics
+1. XGBoost Results
+Testing Performance
+Accuracy: 86.34%
+ROC-AUC: 82.37%
+Training Performance
+Accuracy: 87.65%
+ROC-AUC: 85.69%
+Sensitivity: 21.40%
+Specificity: 98.38%
+Key Insight
 
-### Data Science & Analytics
-- Data Mining Techniques
-- Feature Engineering
-- Hyperparameter Tuning
-- Training & Validation Pipelines
-- Statistical Analysis
-- Performance Optimization
-- Structured Data Processing
+XGBoost produced the most balanced performance overall with:
 
-### Programming & Tools
-- Python
-- TensorFlow
-- XGBoost
-- Scikit-learn
-- Pandas
-- NumPy
-- Jupyter Notebook Development
-- Data Visualization
+Strong specificity
+Stable ROC-AUC performance
+Reliable predictive accuracy
 
----
+The notebook concluded that this model was preferable because of its stronger balance between sensitivity and specificity.
 
-## Business Applications
+2. Correlated Feature XGBoost Model
+Testing Performance
+Accuracy: 86.49%
+ROC-AUC: 80.42%
+Training Performance
+Accuracy: 86.61%
+ROC-AUC: 81.39%
+Sensitivity: 13.11%
+Specificity: 98.50%
+Key Insight
 
-- Healthcare Predictive Analytics
-- Clinical Risk Prediction
-- Enterprise Intelligence Systems
-- Fraud Detection
-- Customer Behavior Analytics
-- Financial Forecasting
-- Operational Decision Support
+Using only highly correlated features slightly improved raw accuracy but reduced:
 
----
+ROC performance
+Sensitivity
+Overall model balance
 
-## Key Features
+3. LightGBM Results
+Testing Performance
+Accuracy: 86.55%
+ROC-AUC: 82.69%
+Sensitivity: 16.40%
+Specificity: 97.91%
+Training Performance
+Accuracy: 86.99%
+ROC-AUC: 84.13%
+Key Insight
 
-- XGBoost model implementation
-- TensorFlow deep learning workflows
-- Predictive analytics pipelines
-- Data preprocessing and feature engineering
-- Machine learning optimization techniques
-- Scalable AI experimentation
+LightGBM demonstrated:
 
----
+Very stable performance
+Strong specificity
+Competitive ROC-AUC scores
+Good scalability potential
 
-## Results & Performance
+4. YDF Gradient Boosted Trees Results
+Testing Performance
+Accuracy: 86.56%
+ROC-AUC: 82.73%
+Sensitivity: 16.83%
+Specificity: 97.85%
+Training Performance
+Accuracy: 87.03%
+ROC-AUC: 84.02%
+Key Insight
 
-The project successfully demonstrated the effectiveness of combining traditional machine learning algorithms with deep learning frameworks to improve predictive performance and model scalability.
+The YDF model performed similarly to LightGBM and showed:
 
-### Key Outcomes
+Consistent predictive behavior
+Strong classification reliability
+Good enterprise AI applicability
 
-- Improved predictive accuracy through advanced machine learning optimization
-- Enhanced model generalization using TensorFlow deep learning architectures
-- Efficient handling of structured datasets using XGBoost feature importance analysis
-- Reduced prediction error through iterative hyperparameter tuning
-- Demonstrated scalable AI workflows suitable for enterprise and healthcare analytics applications
+5. CatBoost Results
+Testing Performance
+Accuracy: 86.47%
+ROC-AUC: 82.54%
+Sensitivity: 17.23%
+Specificity: 97.68%
+Training Performance
+Accuracy: 88.03%
+ROC-AUC: 85.84%
+Key Insight
 
-### Evaluation Metrics Explored
+CatBoost achieved:
 
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- ROC-AUC Performance
-- Loss Function Analysis
-- Training vs Validation Performance
+The highest training accuracy
+Strong ROC-AUC performance
+Excellent handling of structured data
+Overall Findings
 
-### Insights Generated
+#### The project demonstrated that all Gradient Boosted models produced:
 
-The project highlighted the importance of:
-- Combining machine learning and deep learning techniques
-- Effective feature engineering strategies
-- Hyperparameter optimization for model performance
-- Proper preprocessing for scalable AI systems
+Strong predictive accuracy
+Excellent specificity
+Competitive ROC-AUC performance
+Main Conclusions
+Ensemble learning significantly improved predictive performance
+XGBoost provided the best overall balance
+Feature selection impacts sensitivity and ROC-AUC behavior
+Gradient Boosting models are highly effective for structured predictive analytics workflows
+Technical Skills Demonstrated
 
-The results demonstrated how XGBoost and TensorFlow can be leveraged together to support high-performance predictive analytics, intelligent automation, and enterprise AI decision support systems.
+### This notebook demonstrates practical experience with:
 
----
-
-## Repository Structure
-
-```bash
-.
-├── data_mining_with_xgboost_and_tensorflow.ipynb
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
----
-
-## Installation
-
-```bash
-git clone <your-repo-url>
-cd data-mining-with-xgboost-and-tensorflow
-
-pip install -r requirements.txt
-```
-
----
-
-## Recommended Environment
-
-```bash
-Python 3.10+
-TensorFlow
 XGBoost
-Scikit-learn
-Pandas
-NumPy
-Jupyter Notebook
-```
+LightGBM
+CatBoost
+Gradient Boosted Trees
+TensorFlow concepts
+ROC-AUC analysis
+Feature engineering
+Predictive analytics
+Hyperparameter evaluation
+Machine Learning model comparison
+Enterprise AI experimentation workflows
 
+### These are highly relevant skills for:
+
+Health Data Scientist roles
+AI Engineer positions
+Machine Learning Engineer opportunities
+Predictive Analytics and Healthcare AI roles
 ---
 
-## Why This Project Matters
 
-This project demonstrates practical experience building machine learning and deep learning systems capable of:
-- Generating predictive insights from complex datasets
-- Supporting enterprise analytics workflows
-- Scaling AI-driven decision support systems
-- Improving operational intelligence through advanced modeling techniques
-
-
-The project additionally showcases the ability to:
-- Integrate multiple AI frameworks into scalable workflows
-- Interpret predictive performance metrics
-- Translate machine learning outputs into actionable business insights
-- Develop enterprise-ready AI experimentation pipelines
-
----
 
 ## Author
 
