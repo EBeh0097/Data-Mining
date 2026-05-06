@@ -135,16 +135,6 @@ Hyperparameter evaluation
 Machine Learning model comparison
 Enterprise AI experimentation workflows
 
-### These are highly relevant skills for:
-
-Health Data Scientist roles
-AI Engineer positions
-Machine Learning Engineer opportunities
-Predictive Analytics and Healthcare AI roles
----
-
-
-
 ## Author
 
 Emmanuel Ebeh  
